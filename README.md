@@ -1,5 +1,5 @@
 # Exercism track TypeScript
  
-Here 1
+Here 12
  
 🔥 [My Exercism](https://exercism.io/profiles/kubo550)
