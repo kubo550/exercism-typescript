@@ -5,7 +5,9 @@ export default class NucleotideCount {
             if (translate.has(n)) {
                 translate.set(n, translate.get(n)! + 1)
             }
-            else { throw Error("Invalid nucleotide in strand") }
+            else {
+                throw Error("Invalid nucleotide in strand")
+            }
         })
         return Object.fromEntries(translate)
     }
