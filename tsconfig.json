@@ -1,0 +1,17 @@
+ {
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "ESNext",
+        "noEmitOnError": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es2020",
+        "moduleResolution": "node",
+        "lib": [
+            "es2020",
+            "dom"
+        ]
+    }
+ }
